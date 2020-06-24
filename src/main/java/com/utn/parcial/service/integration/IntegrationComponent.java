@@ -20,7 +20,6 @@ public class IntegrationComponent {
         rest = new RestTemplateBuilder()
                 .build();
     }
-
     public ResponseEntity<String> getLastCall(){
         String uri = "http://localhost:8080/calls/last/";
 

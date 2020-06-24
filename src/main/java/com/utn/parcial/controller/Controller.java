@@ -5,14 +5,11 @@ import com.utn.parcial.service.IntegrationService;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiResponse;
 import io.swagger.annotations.ApiResponses;
-import net.bytebuddy.description.method.MethodList;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
-import java.lang.reflect.Array;
 
 
 @RestController
@@ -31,4 +28,5 @@ public class Controller {
     public ResponseEntity<String> getLastCall(){
        return integrationService.getLastCall();
     }
+
 }

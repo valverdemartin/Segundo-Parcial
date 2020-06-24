@@ -2,8 +2,6 @@ package com.utn.parcial.model;
 
 import io.swagger.annotations.ApiModelProperty;
 
-import java.sql.Date;
-
 public class Calls {
     @ApiModelProperty(value = "Id of Rate", required = true, example = "1")
     public Integer idRate;

@@ -10,8 +10,6 @@ public class IntegrationService {
 
     @Autowired
     IntegrationComponent integrationComponent;
-
-
     public ResponseEntity<String> getLastCall(){
         return integrationComponent.getLastCall();
     }
