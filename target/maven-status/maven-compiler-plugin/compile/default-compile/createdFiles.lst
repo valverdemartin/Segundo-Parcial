@@ -1,0 +1,15 @@
+com\utn\parcial\model\Rates.class
+com\utn\parcial\service\integration\IntegrationComponent.class
+com\utn\parcial\service\IntegrationService.class
+com\utn\parcial\model\Lines.class
+com\utn\parcial\model\CallUserDTO.class
+com\utn\parcial\model\Persons$PersonsBuilder.class
+com\utn\parcial\model\Clients.class
+com\utn\parcial\model\Lines$Status.class
+com\utn\parcial\model\Provinces.class
+com\utn\parcial\model\Cities.class
+com\utn\parcial\model\Persons.class
+com\utn\parcial\model\Lines$Type.class
+com\utn\parcial\controller\Controller.class
+com\utn\parcial\ParcialLaboV.class
+com\utn\parcial\config\Swagger2Config.class
